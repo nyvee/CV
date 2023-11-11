@@ -1,0 +1,16 @@
+CREATE DATABASE CV;
+GO
+USE CV;
+GO
+CREATE TABLE cv_data2 (
+    id INT PRIMARY KEY IDENTITY,
+    nama NVARCHAR(255) NOT NULL,
+    alamat NVARCHAR(MAX) NOT NULL,
+    telepon NVARCHAR(255) NOT NULL,
+    email NVARCHAR(255) NOT NULL,
+    web NVARCHAR(255) NOT NULL,
+    pendidikan NVARCHAR(MAX) NOT NULL,
+    pengalaman_kerja NVARCHAR(MAX) NOT NULL,
+    keterampilan NVARCHAR(MAX) NOT NULL,
+    foto_path NVARCHAR(255) NOT NULL
+);

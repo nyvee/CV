@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background: none;
+    margin-block: 1rem;
+}
+::-webkit-scrollbar-thumb {
+    background: #A238FF;
+    border-radius: 10px;
+    border: 2px solid #f8f8f9;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #8A1BFF;
+}
+
+body {
+    background-color: #f8f8f9;
+    font-family: 'Montserrat', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    background-color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    padding: 4rem;
+    margin: 4rem;
+    margin-top: 130px;
+    border: 1px solid #dadada;
+    border-radius: 15px;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+}
+.form-label {
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-top: 0.5rem;
+    margin-bottom: 0.2rem;
+    margin-left: 1rem;
+}
+.form-control {
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    border: 1px solid #dadada;
+    border-radius: 15px;
+    font-family: 'Montserrat', sans-serif;
+    transition: all 0.2s ease-in-out;
+}
+.form-control:focus {
+    outline: 2px solid #A238FF;
+    transition: all 0.2s ease-in-out;
+}
+.form-control-text {
+    resize: none;
+    max-height: 6em;
+    overflow-y: auto;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    border: 1px solid #dadada;
+    border-radius: 15px;
+    font-family: 'Montserrat', sans-serif;
+}
+.form-control-text:focus {
+    outline: 2px solid #A238FF;
+    transition: all 0.2s ease-in-out;
+}
+.btn {
+    background-color: #A238FF;
+    color: #ffffff;
+    border: none;
+    border-radius: 15px;
+    padding: 0.5rem 1rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 1rem;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    transition: all 0.2s ease-in-out;
+}
+.btn:hover {
+    cursor: pointer;
+    background-color: #8A1BFF;
+    transition: all 0.2s ease-in-out;
+}

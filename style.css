@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    background-color: #f8f8f9;
+    font-family: 'Montserrat', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    max-height: 89px;
+    background-color: #f8f8f9;
+    border-bottom: 1px solid #dadada;
+}
+.nav-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav-container h1 {
+    font-size: 2rem;
+    font-weight: normal;
+    color: #000;
+}
+.link{
+    text-decoration: none;
+    color: #A238FF;
+    padding: 1rem 2rem;
+    border-radius: 15px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    transition: all 0.2s ease-in-out;
+}
+.link:hover {
+    background-color: #DBDBDB;
+    color: #000;
+    transition: all 0.2s ease-in-out;
+}
+
+.cv-container {
+    margin-top: 120px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+
+.left-con {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.nama-con {
+    width: 600px;
+    background-color: #A238FF;
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+}
+.nama {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #ffffff;
+}
+.image {
+    width: 600px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    background-color: #ffe892;
+}
+.image img {
+    width: 250px;
+    height: 250px;
+}
+.kontak {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    border: 1px solid #dadada;
+    border-radius: 15px;
+    width: 600px;
+}
+.kontak h1 {
+    padding: 0;
+    margin: 0;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #000;
+    text-transform: uppercase;
+    padding: 0.5rem 1rem;
+    border-bottom: #dadada 1px solid;
+}
+.data-con {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2rem;
+}
+.data {
+    padding: 0.25rem;
+    margin: 0.25rem;
+}
+
+.right-con {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    border: 1px solid #dadada;
+    border-radius: 15px;
+    height: 800px;
+    background-color: #ffffff;
+}
+.right-con h1 {
+    padding: 0;
+    margin: 0;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #000;
+    text-transform: uppercase;
+    padding: 0.5rem 1rem;
+    border-bottom: #dadada 1px solid;
+}
+.specs {
+    display: flex;
+    flex-direction: column;
+    padding: 0 2rem;
+    font-size: 1.2rem;
+}
